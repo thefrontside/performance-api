@@ -1,4 +1,4 @@
-declare module "performance-ponyfill" {
+declare module "performance-api" {
   var performance: Performance;
 
   var PerformanceObserver: {

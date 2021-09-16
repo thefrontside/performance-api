@@ -1,11 +1,11 @@
 {
-  "name": "performance-ponyfill",
-  "version": "1.0.0",
+  "name": "performance-api",
+  "version": "0.0.0",
   "description": "Cross platform interface to the DOM performance API",
   "main": "node-ponyfill.js",
   "browser": "browser-ponyfill.js",
   "types": "index.d.ts",
-  "repository": "https://github.com/thefrontside/performance-ponyfill.git",
+  "repository": "https://github.com/thefrontside/performance-api.git",
   "author": "Frontside Engineering <engineering@frontside.com>",
   "license": "MIT",
   "scripts": {
