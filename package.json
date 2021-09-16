@@ -1,0 +1,23 @@
+{
+  "name": "performance-ponyfill",
+  "version": "0.0.0",
+  "description": "Cross platform interface to the DOM performance API",
+  "main": "node-ponyfill.js",
+  "browser": "browser-ponyfill.js",
+  "types": "index.d.ts",
+  "repository": "https://github.com/thefrontside/performance-ponyfill.git",
+  "author": "Frontside Engineering <engineering@frontside.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha test/**/*.test.js",
+    "lint": "echo no-op",
+    "check:types": "echo no-op",
+    "prepack": "echo no-op"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.17.0",
+    "@frontside/tsconfig": "^1.2.0",
+    "expect": "^24.9.0",
+    "mocha": "^6.2.2"
+  }
+}
